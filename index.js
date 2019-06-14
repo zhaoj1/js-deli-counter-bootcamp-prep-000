@@ -19,7 +19,7 @@ function currentLine(line){
     for(let i = 0; i < line.length;i++){
       str = str + (i+1) + ". " + line[i] + ", "
     }
-    str = str.slice(-2)
+    str = str.slice(0,-2)
   }
   else{
     str = "The line is currently empty."
